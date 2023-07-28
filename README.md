@@ -19,3 +19,5 @@ con el repositorio remoto de manera automatico basado en eventos (push de commit
 5. Ahora se debe configurar el webhook, en payload url indicar la url https que otorga ngrok(es informacion sensible) via terminal a esto se le agrega el sufijo
    /github-webhook/ ej: https://xyz/github-webhook/, content type -> json y por ultimo indicar el evento a notificar en este caso seran commits, pero se puede
    indicar cualquier tipo de evento, pull request, creacion de ramas, etc. lo demas se deja por defecto.
+6. Una vez configurado el webhook hara un evento de ping a nuestra ip, via consola se debe mostrar un 200. (si da 502 es porque el servidor de ci no lo reconoce o no esta desplegado)
+7. Se crea la rama feature/addtest para visualizar notificacion
