@@ -36,7 +36,7 @@ con el repositorio remoto de manera automatico basado en eventos (push de commit
 ![config1.png](assets/config1.png)
 
 en secret debemos indicar el token de acceso personal generado en github o generar uno nuevo, posteriormente se prueba la conexion y se guarda.
-5. Crear pipeline indicando ruta del repositorio, credenciales, rama que sera */feature/addtest el comodin para que identifique la rama ya que puede que empiece con origin/**, 
+5. Crear pipeline indicando ruta del repositorio, credenciales, rama que sera **/feature/addtest el comodin para que identifique la rama ya que puede que empiece con origin/**, 
    tambien indicar pasos de construccion.
 6. Se debe modificar el apartado de disparadores para que se ejecute automaticamente con el webhook y guardar el pipeline:
 ![config2.png](assets/config2.png)
