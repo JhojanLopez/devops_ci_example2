@@ -40,3 +40,4 @@ en secret debemos indicar el token de acceso personal generado en github o gener
    tambien indicar pasos de construccion.
 6. Se debe modificar el apartado de disparadores para que se ejecute automaticamente con el webhook y guardar el pipeline:
 ![config2.png](assets/config2.png)
+7. Ahora con cada push que ejecutemos a la rama feature/addtest el pipeline se dispara automaticamente
